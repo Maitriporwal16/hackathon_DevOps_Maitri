@@ -19,3 +19,5 @@ screen -dmS prowler sh -c "./prowler -M csv,html;cd~; zip -r ${account}-results/
 
 # Check on screen sessions
 screen -ls
+
+#just testing things out
