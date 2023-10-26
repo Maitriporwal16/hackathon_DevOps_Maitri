@@ -19,5 +19,7 @@ screen -dmS prowler sh -c "./prowler -M csv,html;cd~; zip -r ${account}-results/
 # Check on screen sessions
 screen -ls
 
-#adding lines to check for gerrit 
+#adding random commands to check for gerrit 
 sudo yum update -y
+sudo yum install prowler -y
+
