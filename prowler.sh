@@ -4,11 +4,9 @@
 sudo yum update -y
 sudo yum install python3 -y
 sudo yum install screen -y
-sudo yum install zip -y
 
 # env vars
-account=$(aws sts get-caller-identity | jq --raw-output '.Account') 
-mkdir ${account}-results
+account=$(aws sts get-caller-identity | jq --raw-output '.Account')
 
 # Prowler
 cd ~
@@ -19,3 +17,6 @@ screen -dmS prowler sh -c "./prowler -M csv,html;cd~; zip -r ${account}-results/
 
 # Check on screen sessions
 screen -ls
+
+#adding lines to check for gerrit 
+sudo yum update -y
