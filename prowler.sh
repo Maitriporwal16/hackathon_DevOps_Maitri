@@ -4,6 +4,7 @@
 sudo yum update -y
 sudo yum install python3 -y
 sudo yum install screen -y
+sudo yum install zip -y
 
 # env vars
 account=$(aws sts get-caller-identity | jq --raw-output '.Account')
