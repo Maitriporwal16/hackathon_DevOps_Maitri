@@ -5,8 +5,9 @@ sudo yum update -y
 sudo yum install python3 -y
 sudo yum install screen -y
 sudo yum install zip -y
-
+#I am adding random comments for gerrit testing
 # env vars
+
 account=$(aws sts get-caller-identity | jq --raw-output '.Account')
 
 # Prowler
