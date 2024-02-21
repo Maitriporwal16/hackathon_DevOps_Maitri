@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Hi
 # Install packages
 sudo yum update -y
 sudo yum install python3 -y
