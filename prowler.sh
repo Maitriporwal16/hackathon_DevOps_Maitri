@@ -1,6 +1,6 @@
 #!/bin/bash
+#This is a bash script file for cloning the prowler in the ubuntu server!
 
-#Hi
 # Install packages
 sudo yum update -y
 sudo yum install python3 -y
